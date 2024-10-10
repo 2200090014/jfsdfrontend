@@ -1,0 +1,317 @@
+/* Main Section */
+.main-section {
+    height: 60vh;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .main-section p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .service-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-box h3 {
+    margin-bottom: 15px;
+  }
+  
+  .service-box p {
+    color: #555;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    padding: 50px 0;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    margin-bottom: 30px;
+  }
+  
+  .cta-section .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  /* Main Section */
+.main-section {
+  height: 60vh;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.main-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Services Section */
+.services-section {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.service-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-box h3 {
+  margin-bottom: 15px;
+}
+
+.service-box p {
+  color: #555;
+}
+
+/* Centering the CTA Section */
+.centered-cta {
+  height: 100vh; /* Takes up full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #007bff;
+  color: white;
+}
+
+.cta-section h2 {
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  margin-bottom: 30px;
+}
+
+.cta-section .btn {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    list-style: none;
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 0; /* Spacing for the navbar */
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+  }
+  
+  /* Navbar items */
+  .navbar li {
+    margin: 0 20px; /* Spacing between the links */
+  }
+  
+  /* Links inside the navbar */
+  .navbar li a {
+    color: white; /* Text color for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 20px; /* Add some padding to links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the links */
+  .navbar li a:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    color: #fff; /* Keep the text white on hover */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack the items vertically on small screens */
+      align-items: center;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Container for contact information */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .contact-container p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-details {
+    text-align: left;
+  }
+  
+  .contact-details h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Map container */
+  .map-container {
+    margin-top: 20px;
+  }
+  /* Container for the packages information */
+.information-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .information-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .information-container p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .packages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .package-item {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .package-item h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .package-item p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Container for signup form */
+.signup-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+  }
